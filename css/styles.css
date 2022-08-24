@@ -815,17 +815,52 @@ h1 h2 h3 h4 h5 h6 p ul {
 }
 
 .label-modal > textarea {
-    width: 448px;
-    height: 120px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    margin-top: 4px;
-    padding-left: 16px;
-    padding-top: 12px;
-    outline-color: var(--active-color);
-    transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 4px;
+  padding-left: 16px;
+  padding-top: 12px;
+  outline-color: var(--active-color);
+  transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .textarea-resize {
   resize: none;
+}
+
+.checkbox {
+  font-size: 14px;
+  line-height: 1.7px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.checkbox-text {
+  appearance: none;
+  opacity: 0;
+}
+
+.checkbox-label::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--first-color);
+  border-radius: 2px;
+  margin-right: 7px;
+}
+
+.regulations {
+  font-size: 14px;
+  line-height: 1.7px;
+  letter-spacing: 0.03em;
+  color: var(--active-color);
+  text-decoration: underline;
 }
