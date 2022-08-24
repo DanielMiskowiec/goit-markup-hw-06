@@ -782,6 +782,10 @@ h1 h2 h3 h4 h5 h6 p ul {
   gap: 4px;
 }
 
+.input-icons > input {
+  outline-color: var(--active-color);
+}
+
 .input-title {
   font-size: 12px;
   line-height: 1.2;
