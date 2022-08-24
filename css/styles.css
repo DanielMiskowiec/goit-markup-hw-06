@@ -693,3 +693,62 @@ h1 h2 h3 h4 h5 h6 p ul {
   border-radius: 100%;
   cursor: pointer;
 }
+
+.newsletter-footer {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--second-color);
+  margin-bottom: 20px;
+}
+
+.newsletter {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  flex-direction: row;
+}
+
+.newsletter-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: inherit;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.25px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-left: 16px;
+  outline-color: #2196f3;
+  transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.newsletter-submit {
+  width: 200px;
+  height: 50px;
+  background-color: var(--active-color);
+  color: var(--second-color);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: none;
+  justify-content: center;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.newsletter-submit:hover {
+  cursor: pointer;
+}
