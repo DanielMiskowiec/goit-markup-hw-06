@@ -752,3 +752,51 @@ h1 h2 h3 h4 h5 h6 p ul {
 .newsletter-submit:hover {
   cursor: pointer;
 }
+
+.modal-window {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  left: 40px;
+  top: 40px;
+}
+
+#form-head {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.label-modal {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  gap: 4px;
+}
+
+.input-title {
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: var(--description-color);
+}
+
+.input-icons {
+  position: relative;
+}
+
+.input-icons > input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 40px;
+}
