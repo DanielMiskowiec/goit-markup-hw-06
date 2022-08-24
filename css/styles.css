@@ -800,3 +800,12 @@ h1 h2 h3 h4 h5 h6 p ul {
   border-radius: 4px;
   padding-left: 40px;
 }
+
+.input-icons > svg {
+  position: absolute;
+}
+
+.person-icon {
+  top: 14px;
+  left: 15px;
+}
