@@ -56,14 +56,23 @@
             <textarea class="textarea-resize" name="feedback" placeholder="Wprowadź tekst"></textarea>
           </label>
           <label class="checkbox">
-            <input class="checkbox-text" type="checkbox" value="Accept the regulations and privcy policy">
-            <span class="checkbox-label">
-              Oświadczam iż akceptuje
+            <p class="modal-checkbox-text">
+              Oświadczam iż akceptuję
               <a href class="regulations">Regulamin</a>
               i
-              <a href class="regulations">Politykę prywatności.</a>
+              <a href class="regulations">Politykę prywatności</a>
+              .
+            </p>
+            <input class="checkbox-text" name="statute" type="checkbox" value="Accept the regulations and privcy policy">
+            <span class="checkmark">
+              <svg class="checkbox-icon">
+                <use href="./images/icons.svg#icon-icon-check"></use>
+              </svg>
             </span>
+            
+            
           </label>
+          <button type="submit" class="modal-button-submit">Wyślij</button>
         </div>
         </form>
       </div>
