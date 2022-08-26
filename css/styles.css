@@ -846,7 +846,7 @@ h1 h2 h3 h4 h5 h6 p ul {
 }
 
 .checkbox {
-  display: inline-block;
+  display: block;
   position: relative;
   cursor: pointer;
 }
@@ -933,10 +933,7 @@ background-image: url(../images/icons.svg#icon-icon-check);
 
 .checkbox-text:checked + .checkmark {
   border: none;
-  
 }
-
-
 
 .modal-checkbox-text {
   font-family: "Roboto";
@@ -961,5 +958,3 @@ background-image: url(../images/icons.svg#icon-icon-check);
 .checkbox-text:checked + .checkmark svg {
   visibility: visible;
 }
-
-
