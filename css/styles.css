@@ -901,13 +901,9 @@ h1 h2 h3 h4 h5 h6 p ul {
   border: 2px solid black;
   position: absolute;
   top: 3px;
-  left: 15px;
+  left: 40px;
   cursor: pointer;
   border-radius: 2px;
-}
-
-.checkbox input {
-  display: none;
 }
 
 .checkbox-text:checked + .checkmark {
