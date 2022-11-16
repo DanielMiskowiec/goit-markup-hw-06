@@ -14,6 +14,8 @@
   --what-we-do-words-color: rgba(255, 255, 255, 1);
 }
 
+.client-icons
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -67,7 +69,7 @@ body {
   background: var(--second-color, white);
   margin: auto;
 
-  width: 1600px;
+  
 }
 
 .logo {
@@ -117,8 +119,7 @@ body {
 
 .footer {
   background-color: var(--second-background-color);
-  margin-left: 15px;
-  margin-right: 15px;
+ 
 }
 
 .footer-color {
@@ -551,6 +552,12 @@ h1 h2 h3 h4 h5 h6 p ul {
   width: 20px;
 }
 
+.social-icon-color {
+  fill: var(--second-color);
+  height: 20px;
+  width: 20px;
+}
+
 .our-clients-icon {
   font-size: 36px;
   font-weight: 700;
@@ -579,6 +586,7 @@ h1 h2 h3 h4 h5 h6 p ul {
   margin-bottom: 94px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    
 }
 
 .clients-box:hover svg {
@@ -593,6 +601,7 @@ h1 h2 h3 h4 h5 h6 p ul {
   fill: var(--social-links-color);
   width: 106px;
   height: 60px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
 }
 
 .footer-info {
@@ -616,8 +625,9 @@ h1 h2 h3 h4 h5 h6 p ul {
   justify-content: center;
   display: flex;
   margin-top: 20px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    
 }
 
 .social-icon-footer:hover {
@@ -827,6 +837,7 @@ h1 h2 h3 h4 h5 h6 p ul {
 .person-icon {
   top: 14px;
   left: 15px;
+  transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .label-modal > textarea {
@@ -929,6 +940,7 @@ h1 h2 h3 h4 h5 h6 p ul {
   height: 15px;
   width: 16px;
   visibility: hidden;
+  transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .checkbox-text:checked + .checkmark svg {
